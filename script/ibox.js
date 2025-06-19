@@ -5,6 +5,7 @@ if (body) {
     if (obj.data) {
         obj.data.isAuth = "1";
         obj.data.isVip = 1;
+        obj.data.userType = "1";
     }
     body = JSON.stringify(obj);
 }
